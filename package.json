@@ -1,0 +1,29 @@
+{
+  "name": "selfie_analysis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "selfie",
+    "selfie_analysis",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "ybenel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "morgan": "^1.9.1",
+    "nedb": "^1.8.0",
+    "weather-js": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
